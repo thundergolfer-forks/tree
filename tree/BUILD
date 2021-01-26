@@ -67,21 +67,21 @@ tree_py_test(
 # deprecated functions and therefore could not migrate to ``:tree``.
 COMPAT_VISIBILITY = ["//visibility:public"]
 
-py_library(
-    name = "compat",
-    srcs = [],  # compat.py
-    srcs_version = "PY2AND3",
-    visibility = COMPAT_VISIBILITY,
-    deps = [
-        ":tree",
-    ],
-)
+# py_library(
+#     name = "compat",
+#     srcs = [],  # compat.py
+#     srcs_version = "PY2AND3",
+#     visibility = COMPAT_VISIBILITY,
+#     deps = [
+#         ":tree",
+#     ],
+# )
 
-tree_py_test(
-    name = "compat_test",
-    srcs = [],  # compat_test.py
-    deps = [
-        ":compat",
-        # util_nest_test_main_lib,
-    ],
-)
+# tree_py_test(
+#     name = "compat_test",
+#     srcs = [],  # compat_test.py
+#     deps = [
+#         ":compat",
+#         # util_nest_test_main_lib,
+#     ],
+# )
