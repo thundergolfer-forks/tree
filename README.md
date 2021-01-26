@@ -30,6 +30,10 @@ $ pip install dm-tree
 If you are having issues, please let us know by filing an issue on our
 [issue tracker](https://github.com/deepmind/tree/issues).
 
+## Development
+
+Install Bazel using `bazel/install.sh` or by some other method.
+
 ## License
 
 The project is licensed under the Apache 2.0 license.
