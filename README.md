@@ -1,4 +1,4 @@
-# Tree
+# Tree ![ci](https://github.com/thundergolfer-forks/tree/workflows/ci/badge.svg)
 
 `tree` is a library for working with nested data structures. In a way, `tree`
 generalizes the builtin `map` function which only supports flat sequences,
