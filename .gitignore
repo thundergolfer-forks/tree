@@ -1,2 +1,6 @@
 .ijwb/*
 
+bazel-testlogs
+bazel-out
+bazel-bin
+bazel-tree
