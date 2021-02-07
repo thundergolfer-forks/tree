@@ -32,5 +32,6 @@ http_archive(
 new_local_repository(
     name = "python_headers",
     build_file = "external/python_headers.BUILD",
-    path = "/usr/include/python2.7",  # May be overwritten by setup.py.
+#    path = "/usr/include/python2.7",  # May be overwritten by setup.py.
+    path = "/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7"  # On OSX
 )
